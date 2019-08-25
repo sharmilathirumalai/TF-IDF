@@ -20,7 +20,7 @@ by [scraping](https://github.com/sharmilathirumalai/TF-IDF/blob/master/src/main/
 * Load - Finally the transformed data is loaded into [Mongo DB](https://github.com/sharmilathirumalai/TF-IDF/blob/master/src/main/java/group/analysis/Extract.java#L19)
 
 ## Data Analysis
- The  tf-idf score of each document is computed by adding the tf-idf score of title and content attribute in the document. By doing so, the top ranked document for the query canada is found to be as follows:
+ The  tf-idf score of each document is computed by adding the tf-idf score of title and content attribute in the document.	Calculated the cosine value and distance for each document and the query. By doing so, the top ranked document for the query canada is found to be as follows:
  
  ```json
  {
