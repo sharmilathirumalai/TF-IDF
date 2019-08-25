@@ -13,7 +13,7 @@ public class Extract {
 
 	public static void main( String[] args ) throws Exception
 	{
-		Map<Integer, Article> articles = Parser.extractFiles("C:\\Users\\19025\\Desktop\\winter 2019\\Data collection\\reuters21578_Assignment 3\\reuters21578_Assignment 3");
+		Map<Integer, Article> articles = Parser.extractFiles("location");
 		MongoClient mongo = new MongoClient( "localhost" , 27017 ); 
 		MongoDatabase database = mongo.getDatabase("reuters_data");
 		MongoCollection<Document>  collection = database.getCollection("articles"); 
